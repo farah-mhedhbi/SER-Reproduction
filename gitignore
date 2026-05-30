@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large model files — never push these
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Extracted feature vectors — too large for GitHub
+*.npz
+*.npy
+
+# Kaggle cache
+/kaggle/
+/root/.cache/huggingface/
+
+# OS files
+.DS_Store
+Thumbs.db
